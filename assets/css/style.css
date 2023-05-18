@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 html {
+    scroll-behavior: smooth;
     font-family: Helvetica, Arial,sans-serif ;
 }
 /* common */
@@ -162,9 +163,10 @@ html {
 }
 #content .content-section {
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 #content .section-heading {
@@ -320,12 +322,45 @@ html {
     color: #000;
     cursor: pointer;
 }
+/* map-section */
+.map-section img {
+    width: 100%;
+}
 
 
 /* foooter */
 #footer {
+    padding: 64px 16px;
+    text-align: center;
 
 }
+#footer .socials-list {
+    font-size: 24px;
+}
+#footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+#footer .socials-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .copyright {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .clone {
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .clone a {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
 .modal {
     position: fixed;
     top: 0px;
