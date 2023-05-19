@@ -50,7 +50,7 @@ html {
 
 /* main */
 #main {
-
+    overflow: hidden;
 }
 #header {
     position: fixed;
@@ -60,6 +60,7 @@ html {
     height: 47px;
     background-color: black;
     z-index: 1;
+    overflow: hidden;
 
 }
 #nav {
@@ -116,20 +117,21 @@ html {
 #nav .nav-icon-down {
     font-size: 10px;
 }
-
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
-    padding: 0 30px;
-    
+    padding: 0 30px; 
 }
-
+#header .menu-icon:hover,
 #header > .search-btn:hover > i {
     color: black;
 }
+#header .mobile-menu-btn:hover,
 #header .search-btn:hover {
-    background-color: #fff;
+    background-color: #ccc;
     cursor: pointer;
 }
+#header .menu-icon,
 #header .search-icon {
     color:#fff;
     font-size: 20px;
@@ -162,10 +164,13 @@ html {
 
 }
 #content .content-section {
-    width: 800px;
+    width: 800px; 
+    max-width: 100%; /* reponsive */
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 
 }
 
