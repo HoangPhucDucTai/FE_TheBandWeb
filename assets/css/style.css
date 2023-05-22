@@ -23,6 +23,9 @@ html {
 .mt-16 {
     margin-top: 16px !important;
 }
+.mt-32 {
+    margin-top: 32px !important;
+}
 
 .row {
     margin-left: -8px;
@@ -60,8 +63,6 @@ html {
     height: 47px;
     background-color: black;
     z-index: 1;
-    overflow: hidden;
-
 }
 #nav {
     display: inline-block;
@@ -116,6 +117,12 @@ html {
 }
 #nav .nav-icon-down {
     font-size: 10px;
+}
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
 }
 #header .mobile-menu-btn,
 #header .search-btn {
@@ -195,7 +202,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
+    margin-top: 32px;
     /* overflow: hidden; = class clear: both */
 }
 /* #content .member-item {
@@ -248,7 +255,7 @@ html {
     margin-top: -3px;
 }
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
     padding-bottom: 48px;
     /* margin-left: -8px;
     margin-right: -8px; */
@@ -288,6 +295,7 @@ html {
     display: inline-block;
     margin-top: 15px;
     border-radius: 3px;
+    /* text-align: center; */
 }
 .place-buy-btn:hover {
     color: #000;
