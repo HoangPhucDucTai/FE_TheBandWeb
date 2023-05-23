@@ -149,7 +149,7 @@ html {
     position: relative;
    margin-top: 47px;
    padding-top: 50%;
-   background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+   background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
 }
 #slider .text-content {
     position: absolute;
@@ -165,6 +165,7 @@ html {
 #slider .text-slogan {
     margin-top: 20px;
     font-size: 15px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -295,6 +296,7 @@ html {
     display: inline-block;
     margin-top: 15px;
     border-radius: 3px;
+    -webkit-appearance: none;
     /* text-align: center; */
 }
 .place-buy-btn:hover {
